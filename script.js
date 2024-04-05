@@ -36,7 +36,6 @@ let city = "pune";
 citySearch.addEventListener("submit", (e) => {
     e.preventDefault();
     let cityName = document.querySelector(".city_name");
-    alert(cityName.value)
     city = cityName.value;
     getWeatherData();
     cityName.value = "";
